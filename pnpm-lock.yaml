@@ -7,6 +7,11 @@ settings:
 onlyBuiltDependencies:
   - esbuild
 
+dependencies:
+  cclkit4svelte:
+    specifier: ^1.2.2
+    version: 1.2.2
+
 devDependencies:
   '@eslint/compat':
     specifier: ^1.2.5
@@ -1096,6 +1101,12 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
+  /cclkit4svelte@1.2.2:
+    resolution: {integrity: sha512-8jOsHTpkzlaxPr1Pim+sY/Hs+snu+zw7SY6nw9dUy3pYEJiMuSprqGIWtohnGc8MuA+04TTcUTotqf4w/VjTbQ==}
+    dependencies:
+      luxon: 3.5.0
+    dev: false
+
   /chai@5.2.0:
     resolution: {integrity: sha512-mCuXncKXk5iCLhfhwTc0izo0gtEmpz5CtG2y8GiOINBlMVS6v8TMRc5TaLWKS6692m9+dVVfzgeVxR5UxWHTYw==}
     engines: {node: '>=12'}
@@ -1906,6 +1917,11 @@ packages:
   /lru-cache@10.4.3:
     resolution: {integrity: sha512-JNAzZcXrCt42VGLuYz0zfAzDfAvJWW6AfYlDBQyDV5DClI2m5sAmK+OIO7s59XfsRsWHp02jAJrRadPRGTt6SQ==}
     dev: true
+
+  /luxon@3.5.0:
+    resolution: {integrity: sha512-rh+Zjr6DNfUYR3bPwJEnuwDdqMbxZW7LOQfUN4B54+Cl+0o5zaU9RJ6bcidfDtC1cWCZXQ+nvX8bf6bAji37QQ==}
+    engines: {node: '>=12'}
+    dev: false
 
   /lz-string@1.5.0:
     resolution: {integrity: sha512-h5bgJWpxJNswbU7qCrV0tIKQCaS3blPDrqKWx+QxzuzL1zGUzij9XCWLrSLsJPu5t+eWA/ycetzYAO5IOMcWAQ==}

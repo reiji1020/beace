@@ -1,38 +1,55 @@
-# sv
+# Beace
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+手芸道具整理サービス「Beace」のFEコードです
 
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
-```
 
 ## Developing
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+推奨パッケージマネージャーは`pnpm`です。pnpm導入後、初回は依存パッケージインストールのために`pnpm install`を実行してください。
 
 ```bash
-npm run dev
+# ローカルサーバーを起動
+pnpm run dev
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
+# 自動でブラウザ起動したい場合は以下のコマンドを実行
+pnpm run dev -- --open
 ```
 
 ## Building
 
-To create a production version of your app:
+本番環境用のビルドを行う時は以下のコマンドを実行してください。
 
 ```bash
-npm run build
+pnpm run build
 ```
 
-You can preview the production build with `npm run preview`.
+本番環境のビルドを用いて動作確認をしたい場合は`npm run preview`を実行してください。
 
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+
+---
+
+# Beace
+
+This is the frontend (FE) code for the handicraft tool organization service "Beace."
+
+## Developing
+
+The recommended package manager is `pnpm`. After installing `pnpm`, run `pnpm install` to install the dependencies for the first time.
+
+```bash
+# Start the local server
+pnpm run dev
+
+# If you want the browser to open automatically, run the following command:
+pnpm run dev -- --open
+```
+
+## Building
+
+To build for the production environment, run the following command:
+
+```bash
+pnpm run build
+```
+
+If you want to check the operation using the production build, run `pnpm run preview`.

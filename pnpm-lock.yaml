@@ -9,8 +9,8 @@ onlyBuiltDependencies:
 
 dependencies:
   cclkit4svelte:
-    specifier: ^1.2.3
-    version: 1.2.3
+    specifier: ^1.2.4
+    version: 1.2.4
 
 devDependencies:
   '@eslint/compat':
@@ -1101,8 +1101,8 @@ packages:
     engines: {node: '>=6'}
     dev: true
 
-  /cclkit4svelte@1.2.3:
-    resolution: {integrity: sha512-oOTcLWt9D9FL12/hRVmpiAZ+0x7POwzrxJhWc6u2hqsOjJKKotRSxVlaTpRWiOukBvq7S2W4xeov4iGlmTQ7zg==}
+  /cclkit4svelte@1.2.4:
+    resolution: {integrity: sha512-/lUWjRaJlDn/qCM5SM41P+STsdDCSZ+3ZZQ/nskPe1S3cEQeY46CntTUaE72CjMmQUWCUBRJrB643idZTfueOA==}
     dependencies:
       luxon: 3.5.0
     dev: false

@@ -45,6 +45,6 @@
 		]
 	},
 	"dependencies": {
-		"cclkit4svelte": "^1.2.2"
+		"cclkit4svelte": "^1.2.3"
 	}
 }
